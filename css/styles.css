@@ -1,0 +1,188 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+/*Title section*/
+#title {
+    background-color: #3E2B54;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.iphone6 {
+    width: 20%;
+    transform: rotate(9deg);
+    position: absolute;
+    right: 20%;
+}
+
+/*Download Buttons*/
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item {
+    font-weight: 300;
+    padding: 0px 18px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+/* Features Section */
+#features {
+    background-color: white;
+    padding: 12% 15%;
+    position: relative;
+}
+
+.para-1 {
+    color: #8F8F8F;
+}
+
+/*Font Icons*/
+.font-icon {
+    color: #3E2B54;
+    padding: 0% 15% 5%;
+}
+
+.font-icon:hover {
+    color: rgba(109,74,146,.9);
+}
+
+
+/*Testimonials Section*/
+#testimonials {
+    color: #fff;
+    background-color: #3E2B54;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 5% 14%;
+}
+
+/*Press Section*/
+#press {
+    background-color: #3E2B54;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing section*/
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*Call to Action*/
+
+#cta {
+    background-color: #3E2B54;
+    padding: 100px 200px 100px;
+}
+
+.cta-text {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 320%;
+    font-weight: 900;
+    line-break: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+    padding: 100px 100px 50px;
+}
+
+.social-icon {
+    padding: 0% 1%;
+}
+
+.copyright {
+    background-color: #fff;
+    color: #8F8F8F;
+    font-size: 1rem;
+    font-weight: 450;
+    padding: 30px;
+}
+
+@media (max-width: 991px) {
+    #title {}
+
+    .iphone6 {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+
+    #cta {
+        font-size: 0.5rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 428px) {
+    #cta {
+        font-size: 0.5rem;
+        padding: 80px 0 40px 0;
+    }
+}
